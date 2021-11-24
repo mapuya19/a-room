@@ -1,0 +1,7 @@
+/// @description Move down
+
+if (keyboard_check(ord("W"))){	// prioritizes down movement
+	y += my_speed;
+}
+
+y += my_speed;

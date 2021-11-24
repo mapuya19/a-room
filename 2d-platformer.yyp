@@ -1,6 +1,11 @@
 {
   "resources": [
-    {"id":{"name":"obj_test","path":"objects/obj_test/obj_test.yy",},"order":0,},
+    {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},"order":2,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},"order":0,},
+    {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},"order":1,},
+    {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},"order":1,},
+    {"id":{"name":"spr_player_side","path":"sprites/spr_player_side/spr_player_side.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
