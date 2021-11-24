@@ -6,6 +6,7 @@
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},"order":1,},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},"order":1,},
     {"id":{"name":"spr_player_side","path":"sprites/spr_player_side/spr_player_side.yy",},"order":3,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -29,6 +30,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
