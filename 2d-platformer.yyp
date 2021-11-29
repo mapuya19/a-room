@@ -27,6 +27,7 @@
     {"id":{"name":"obj_button6","path":"objects/obj_button6/obj_button6.yy",},"order":9,},
     {"id":{"name":"spr_button_pound","path":"sprites/spr_button_pound/spr_button_pound.yy",},"order":0,},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":2,},
+    {"id":{"name":"obj_flashlight","path":"objects/obj_flashlight/obj_flashlight.yy",},"order":18,},
     {"id":{"name":"room_bomb","path":"rooms/room_bomb/room_bomb.yy",},"order":1,},
     {"id":{"name":"obj_button9","path":"objects/obj_button9/obj_button9.yy",},"order":12,},
     {"id":{"name":"obj_button4","path":"objects/obj_button4/obj_button4.yy",},"order":7,},
