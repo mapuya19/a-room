@@ -1,6 +1,9 @@
 /// @description Game states
 
 if (keyboard_check(ord("R"))){	// restart game
-	room_goto(Room1);
 	room_restart();
+}
+
+if (keyboard_check(ord("Q"))){	// go to next room
+	room_goto_next();
 }
