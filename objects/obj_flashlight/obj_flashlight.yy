@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_flashlight",
-    "path": "sprites/spr_flashlight/spr_flashlight.yy",
+    "name": "spr_flashlight_open",
+    "path": "sprites/spr_flashlight_open/spr_flashlight_open.yy",
   },
   "solid": false,
   "visible": true,
