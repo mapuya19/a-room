@@ -32,6 +32,8 @@
     {"id":{"name":"spr_card_reader_top","path":"sprites/spr_card_reader_top/spr_card_reader_top.yy",},"order":20,},
     {"id":{"name":"obj_card_reader_bot","path":"objects/obj_card_reader_bot/obj_card_reader_bot.yy",},"order":17,},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":2,},
+    {"id":{"name":"obj_flashlight","path":"objects/obj_flashlight/obj_flashlight.yy",},"order":18,},
+    {"id":{"name":"spr_flashlight","path":"sprites/spr_flashlight/spr_flashlight.yy",},"order":4,},
     {"id":{"name":"room_bomb","path":"rooms/room_bomb/room_bomb.yy",},"order":1,},
     {"id":{"name":"obj_button9","path":"objects/obj_button9/obj_button9.yy",},"order":12,},
     {"id":{"name":"obj_button4","path":"objects/obj_button4/obj_button4.yy",},"order":7,},
@@ -79,7 +81,7 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/spr_buttons.yy","order":19,"resourceVersion":"1.0","name":"spr_buttons","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/spr_buttons.yy","order":3,"resourceVersion":"1.0","name":"spr_buttons","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/obj_buttons.yy","order":17,"resourceVersion":"1.0","name":"obj_buttons","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
