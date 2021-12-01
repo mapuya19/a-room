@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bomb_main",
-    "path": "sprites/spr_bomb_main/spr_bomb_main.yy",
+    "name": "spr_temp_swipe_card",
+    "path": "sprites/spr_temp_swipe_card/spr_temp_swipe_card.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_main_bomb",
+  "name": "obj_main_swipe_card",
   "tags": [],
   "resourceType": "GMObject",
 }
