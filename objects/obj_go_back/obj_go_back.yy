@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bomb_main",
-    "path": "sprites/spr_bomb_main/spr_bomb_main.yy",
+    "name": "spr_temp_go_back",
+    "path": "sprites/spr_temp_go_back/spr_temp_go_back.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_main_bomb",
+  "name": "obj_go_back",
   "tags": [],
   "resourceType": "GMObject",
 }
