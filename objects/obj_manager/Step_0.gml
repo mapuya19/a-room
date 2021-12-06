@@ -99,3 +99,7 @@ if (keyboard_check(ord("3"))){	// go to third room
 if (keyboard_check(ord("4"))){	// go to fourth room
 	room_goto(Room4);
 }
+
+if (keyboard_check(ord("5"))){	// go to maze room
+	room_goto(rm_maze);
+}

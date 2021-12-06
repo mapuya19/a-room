@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 if (set = false) {
-x = mouse_x
-y = mouse_y
 
 if (keyboard_check_pressed(ord("Q"))){
 if (direct = 4) {
@@ -28,7 +26,7 @@ if (mouse_check_button_released(mb_left))
 }
 
 if (mouse_check_button(mb_left)){
-if (point_in_rectangle(mouse_x,mouse_y,x -10,y-10,x+10,y+10) && obj_mazerunner.is_running = false){
+if (point_in_rectangle(mouse_x,mouse_y,x -10,y-10,x+10,y+10) && obj_mazerunner.is_running = false && obj_gspawn.held = false){
 	set = false
 	obj_gspawn.held = true
 }
