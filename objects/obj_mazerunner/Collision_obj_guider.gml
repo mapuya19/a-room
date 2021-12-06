@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 if (other.set = true) {
+	p_x = other.x
+	p_y = other.y
 if (other.direct = 1){
 direct = 1
 }
