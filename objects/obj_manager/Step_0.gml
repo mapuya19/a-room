@@ -1,4 +1,4 @@
-/// @description Game states
+// @description Game states
 
 if (room == room_main) {
 	if (global.hover == false && global.hover_bomb != noone && position_meeting(mouse_x, mouse_y, global.hover_bomb)) {
