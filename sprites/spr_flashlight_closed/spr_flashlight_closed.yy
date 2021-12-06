@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "old sprites",
+    "path": "folders/Sprites/old sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_flashlight_closed",

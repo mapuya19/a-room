@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "spr_buttons",
-    "path": "folders/Sprites/spr_buttons.yy",
+    "path": "folders/Sprites/old sprites/spr_buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_button9",

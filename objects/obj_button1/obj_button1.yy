@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_button1",
-    "path": "sprites/spr_button1/spr_button1.yy",
+    "name": "spr_key1",
+    "path": "sprites/spr_key1/spr_key1.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "obj_buttons",
-    "path": "folders/Objects/obj_buttons.yy",
+    "path": "folders/Objects/BOMB ROOM/obj_buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_button1",

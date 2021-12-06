@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "obj_buttons",
-    "path": "folders/Objects/obj_buttons.yy",
+    "path": "folders/Objects/BOMB ROOM/obj_buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_button",

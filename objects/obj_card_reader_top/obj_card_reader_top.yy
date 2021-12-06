@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_card_reader_top",
-    "path": "sprites/spr_card_reader_top/spr_card_reader_top.yy",
+    "name": "spr_cardreader",
+    "path": "sprites/spr_cardreader/spr_cardreader.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "SWIPE ROOM",
+    "path": "folders/Objects/SWIPE ROOM.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_card_reader_top",

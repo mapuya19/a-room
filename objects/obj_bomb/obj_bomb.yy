@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bomb",
-    "path": "sprites/spr_bomb/spr_bomb.yy",
+    "name": "spr_keypad",
+    "path": "sprites/spr_keypad/spr_keypad.yy",
   },
   "solid": false,
   "visible": true,
@@ -34,8 +34,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "BOMB ROOM",
+    "path": "folders/Objects/BOMB ROOM.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_bomb",

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_swipe_card",
-    "path": "sprites/spr_swipe_card/spr_swipe_card.yy",
+    "name": "spr_card",
+    "path": "sprites/spr_card/spr_card.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,8 +31,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "SWIPE ROOM",
+    "path": "folders/Objects/SWIPE ROOM.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_swipe_card",

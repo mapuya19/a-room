@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_temp_go_back",
-    "path": "sprites/spr_temp_go_back/spr_temp_go_back.yy",
+    "name": "spr_backbutton",
+    "path": "sprites/spr_backbutton/spr_backbutton.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "LIGHT ROOM",
+    "path": "folders/Objects/LIGHT ROOM.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_go_back",
