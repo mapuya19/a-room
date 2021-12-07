@@ -1,4 +1,4 @@
-// @description Game states
+// @description Game states and bomb timer
 
 if (room == room_main) {
 	if (global.hover == false && global.hover_bomb != noone && position_meeting(mouse_x, mouse_y, global.hover_bomb)) {
@@ -18,7 +18,6 @@ if (room == room_main) {
 		global.hovering_object = noone;
 		global.hover = false;
 	}
-	
 }
 
 // if (game state == connect wires)
@@ -70,7 +69,6 @@ if (room == room_wires) {
 					global.wires_connected = false;
 					break;
 				}
-				show_debug_message("CONGRATTS")
 			}
 		}
 		else {
@@ -79,27 +77,78 @@ if (room == room_wires) {
 	}
 }
 
+//// bomb timer
+
+//if !(global.detonated) {
+//	++global.clock;
+//	if (global.clock % room_speed == 0) {	// decrement seconds every second
+//		--global.time_seconds;
+//	}
+
+//	if (global.time_seconds < 0) {
+//		if (global.time_minutes > 0) {	// if seconds go to 0, decrement minute
+//			--global.time_minutes;
+//			global.time_seconds = 59;
+//			// tick sound effect
+//		}
+//		else {	// if time is up, display 00:00
+//			global.time_seconds = 0;
+//			global.detonated = true;
+//			alarm[0] = room_speed * 0.5;	// triggers camera shake and explosion sound
+//		}
+//	}
+//}
+
+//var sec_tens_place = global.time_seconds div 10;
+//var sec_ones_place = global.time_seconds mod 10;
+
+//for (i = 0; i < 10; ++i) {
+//	if (i == global.time_minutes) {
+//		global.min_ones = global.buttons_spr[| 0][i]
+//	}
+//	if (i == sec_tens_place) {
+//		global.sec_tens = global.buttons_spr[| 0][i]
+//	}
+//	if (i == sec_ones_place) {
+//		global.sec_ones = global.buttons_spr[| 0][i]
+//	}
+//}
+
+//if (global.time_seconds < 10) {	// add trailing zeros to seconds if necessary
+//	global.time_str =  "0" + string(global.time_minutes) + ":0" + string(global.time_seconds);
+//}
+//else {
+//	global.time_str = "0" + string(global.time_minutes) + ":" + string(global.time_seconds)	;
+//}
 
 if (keyboard_check(ord("R"))){	// restart game
 	room_restart();
 }
 
-if (keyboard_check(ord("1"))){	// go to first room
-	room_goto(room_light);
+if (keyboard_check(ord("1"))){	// go to room main
+	room_goto(room_main);
 }
 
-if (keyboard_check(ord("2"))){	// go to second room
+if (keyboard_check(ord("2"))){	// go to room bomb
 	room_goto(room_bomb);
 }
 
-if (keyboard_check(ord("3"))){	// go to third room
+if (keyboard_check(ord("3"))){	// go to room swipe
 	room_goto(room_swipe);
 }
 
-if (keyboard_check(ord("4"))){	// go to fourth room
+if (keyboard_check(ord("4"))){	// go to room wires
 	room_goto(room_wires);
 }
 
-if (keyboard_check(ord("5"))){	// go to maze room
+if (keyboard_check(ord("5"))){	// go to room maze
 	room_goto(room_maze);
+}
+
+if (keyboard_check(ord("6"))){	// go to room lightswitch
+	room_goto(room_light);
+}
+
+if (keyboard_check(ord("7"))){	// go to room screen wipe
+	room_goto(room_screen_wipe);
 }
