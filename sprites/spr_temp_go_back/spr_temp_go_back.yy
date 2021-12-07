@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "OLD SPRITES",
+    "path": "folders/Sprites/OLD SPRITES.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_temp_go_back",

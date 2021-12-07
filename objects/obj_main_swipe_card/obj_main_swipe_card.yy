@@ -30,8 +30,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "01 MAIN ROOM",
+    "path": "folders/Objects/01 MAIN ROOM.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_main_swipe_card",

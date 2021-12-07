@@ -22,7 +22,7 @@ if (room == room_main) {
 }
 
 // if (game state == connect wires)
-if (room == Room4) {
+if (room == room_wires) {
 	var num_wires = ds_list_size(global.wires);
 	if (num_wires < 3) {	// first 3 wires on the left side
 		
@@ -85,7 +85,7 @@ if (keyboard_check(ord("R"))){	// restart game
 }
 
 if (keyboard_check(ord("1"))){	// go to first room
-	room_goto(Room1);
+	room_goto(room_light);
 }
 
 if (keyboard_check(ord("2"))){	// go to second room
@@ -93,13 +93,13 @@ if (keyboard_check(ord("2"))){	// go to second room
 }
 
 if (keyboard_check(ord("3"))){	// go to third room
-	room_goto(Room3);
+	room_goto(room_swipe);
 }
 
 if (keyboard_check(ord("4"))){	// go to fourth room
-	room_goto(Room4);
+	room_goto(room_wires);
 }
 
 if (keyboard_check(ord("5"))){	// go to maze room
-	room_goto(rm_maze);
+	room_goto(room_maze);
 }

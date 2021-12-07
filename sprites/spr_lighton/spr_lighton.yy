@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "NEW SPRITES",
-    "path": "folders/Sprites/NEW SPRITES.yy",
+    "name": "02 LIGHT ROOM",
+    "path": "folders/Sprites/NEW SPRITES/02 LIGHT ROOM.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_lighton",

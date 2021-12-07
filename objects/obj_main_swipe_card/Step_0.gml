@@ -11,5 +11,5 @@ if (position_meeting(mouse_x, mouse_y, obj_main_swipe_card)) {
 }
 
 if mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, obj_main_swipe_card) {
-	room_goto(Room3);
+	room_goto(room_swipe);
 }

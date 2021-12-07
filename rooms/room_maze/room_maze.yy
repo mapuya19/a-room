@@ -25,10 +25,10 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_1E7AD510","path":"rooms/rm_maze/rm_maze.yy",},
-    {"name":"inst_6E1B88CE","path":"rooms/rm_maze/rm_maze.yy",},
-    {"name":"inst_2ED5D2C7","path":"rooms/rm_maze/rm_maze.yy",},
-    {"name":"inst_2E916A22","path":"rooms/rm_maze/rm_maze.yy",},
+    {"name":"inst_1E7AD510","path":"rooms/room_maze/room_maze.yy",},
+    {"name":"inst_6E1B88CE","path":"rooms/room_maze/room_maze.yy",},
+    {"name":"inst_2ED5D2C7","path":"rooms/room_maze/room_maze.yy",},
+    {"name":"inst_2E916A22","path":"rooms/room_maze/room_maze.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -56,7 +56,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "rm_maze",
+  "name": "room_maze",
   "tags": [],
   "resourceType": "GMRoom",
 }
