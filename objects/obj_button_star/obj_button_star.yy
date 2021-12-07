@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_button_star",
-    "path": "sprites/spr_button_star/spr_button_star.yy",
+    "name": "spr_keystar",
+    "path": "sprites/spr_keystar/spr_keystar.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "obj_buttons",
-    "path": "folders/Objects/obj_buttons.yy",
+    "path": "folders/Objects/03 BOMB ROOM/obj_buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_button_star",

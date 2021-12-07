@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "NEW SPRITES",
-    "path": "folders/Sprites/NEW SPRITES.yy",
+    "name": "04 SWIPE ROOM",
+    "path": "folders/Sprites/NEW SPRITES/04 SWIPE ROOM.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_cardreader",

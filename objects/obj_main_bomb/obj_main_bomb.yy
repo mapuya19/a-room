@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bomb_main",
-    "path": "sprites/spr_bomb_main/spr_bomb_main.yy",
+    "name": "spr_mainroombomb",
+    "path": "sprites/spr_mainroombomb/spr_mainroombomb.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,8 +30,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "01 MAIN ROOM",
+    "path": "folders/Objects/01 MAIN ROOM.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_main_bomb",

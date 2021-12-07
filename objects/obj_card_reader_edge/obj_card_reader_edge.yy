@@ -21,8 +21,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "04 SWIPE ROOM",
+    "path": "folders/Objects/04 SWIPE ROOM.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_card_reader_edge",

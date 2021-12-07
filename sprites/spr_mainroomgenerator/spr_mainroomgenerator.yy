@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "NEW SPRITES",
-    "path": "folders/Sprites/NEW SPRITES.yy",
+    "name": "01 MAIN ROOM",
+    "path": "folders/Sprites/NEW SPRITES/01 MAIN ROOM.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_mainroomgenerator",
