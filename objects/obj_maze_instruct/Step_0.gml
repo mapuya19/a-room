@@ -3,7 +3,6 @@
 if (i_state = 1)
 {
 if (image_index = 4){
-obj_gspawn.maze_stop = false
 image_alpha = 0
 image_speed = 0
 obj_info.image_alpha = 1
