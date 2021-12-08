@@ -15,3 +15,9 @@ if (!drag) {
 if (hspeed > 10) {
 	
 }
+
+// sound for when swipe is done correctly
+//audio_play_sound(sound_good_card_swipe, 5, 0)
+
+// sound for when swipe is done correctly
+//audio_play_sound(sound_bad_card_swipe, 6, 0)
