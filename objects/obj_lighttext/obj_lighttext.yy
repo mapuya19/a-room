@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_dark",
-    "path": "sprites/spr_dark/spr_dark.yy",
+    "name": "spr_text_empty",
+    "path": "sprites/spr_text_empty/spr_text_empty.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,17 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "DARKNESS",
-    "path": "folders/Objects/DARKNESS.yy",
+    "name": "TEXT",
+    "path": "folders/Objects/TEXT.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_dark",
+  "name": "obj_lighttext",
   "tags": [],
   "resourceType": "GMObject",
 }

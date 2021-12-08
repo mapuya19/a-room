@@ -6,6 +6,8 @@ if (room == room_main) {
 
 // if (game state == connect wires)
 if (room == room_wires) {
+	global.lighton = 0;
+	global.poweron = 0;
 	var num_wires = ds_list_size(global.wires);
 	if (num_wires < 3) {	// first 3 wires on the left side
 		

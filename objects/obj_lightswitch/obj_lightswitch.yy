@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_lighton",
-    "path": "sprites/spr_lighton/spr_lighton.yy",
+    "name": "spr_lightoff",
+    "path": "sprites/spr_lightoff/spr_lightoff.yy",
   },
   "solid": false,
   "visible": true,
