@@ -78,8 +78,13 @@ if (room == room_wires) {
 	}
 }
 
+if (room == room_win) {
+	if (keyboard_check(ord("Q"))){	// restart game
+		room_goto(room_main);
+	}
+}
 
-if (keyboard_check(ord("R"))){	// restart game
+if (keyboard_check(ord("R"))){	// restart room
 	room_restart();
 }
 

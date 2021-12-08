@@ -69,6 +69,7 @@
     {"id":{"name":"spr_idcard","path":"sprites/spr_idcard/spr_idcard.yy",},"order":1,},
     {"id":{"name":"spr_guider","path":"sprites/spr_guider/spr_guider.yy",},"order":14,},
     {"id":{"name":"obj_go_back","path":"objects/obj_go_back/obj_go_back.yy",},"order":10,},
+    {"id":{"name":"room_win","path":"rooms/room_win/room_win.yy",},"order":9,},
     {"id":{"name":"obj_button8_timer","path":"objects/obj_button8_timer/obj_button8_timer.yy",},"order":14,},
     {"id":{"name":"obj_button2_timer","path":"objects/obj_button2_timer/obj_button2_timer.yy",},"order":20,},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},"order":0,},
@@ -146,6 +147,7 @@
     {"roomId":{"name":"room_swipe","path":"rooms/room_swipe/room_swipe.yy",},},
     {"roomId":{"name":"room_wires","path":"rooms/room_wires/room_wires.yy",},},
     {"roomId":{"name":"room_light","path":"rooms/room_light/room_light.yy",},},
+    {"roomId":{"name":"room_win","path":"rooms/room_win/room_win.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
