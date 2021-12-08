@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_lighton",
-    "path": "sprites/spr_lighton/spr_lighton.yy",
+    "name": "spr_mainroomdark",
+    "path": "sprites/spr_mainroomdark/spr_mainroomdark.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,18 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "02 LIGHT ROOM",
-    "path": "folders/Objects/02 LIGHT ROOM.yy",
+    "name": "01 MAIN ROOM",
+    "path": "folders/Objects/01 MAIN ROOM.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_lightswitch",
+  "name": "obj_main_dark",
   "tags": [],
   "resourceType": "GMObject",
 }

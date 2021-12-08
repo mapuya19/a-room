@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_lighton",
-    "path": "sprites/spr_lighton/spr_lighton.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,18 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "02 LIGHT ROOM",
-    "path": "folders/Objects/02 LIGHT ROOM.yy",
+    "name": "DARKNESS",
+    "path": "folders/Objects/DARKNESS.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_lightswitch",
+  "name": "obj_dark",
   "tags": [],
   "resourceType": "GMObject",
 }
