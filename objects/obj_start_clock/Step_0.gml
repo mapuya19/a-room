@@ -1,18 +1,19 @@
 /// @description Decrement time
 
 // bomb timer
-show_debug_message("STEP IS RUNNING")
+
 if !(global.detonated) {
 	++global.clock;
 	if (global.clock % room_speed == 0) {	// decrement seconds every second
 		--global.time_seconds;
+		
+		audio_play_sound(sound_tick,1,0)
 	}
 
 	if (global.time_seconds < 0) {
 		if (global.time_minutes > 0) {	// if seconds go to 0, decrement minute
 			--global.time_minutes;
 			global.time_seconds = 59;
-			// tick sound effect
 		}
 		else {	// if time is up, display 00:00
 			global.time_seconds = 0;

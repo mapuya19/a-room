@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sound_explosion.wav",
-  "duration": 2.652608,
+  "soundFile": "sound_electric_wire.wav",
+  "duration": 0.301066,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sound_explosion",
+  "name": "sound_electric_wire",
   "tags": [],
   "resourceType": "GMSound",
 }
