@@ -2,7 +2,11 @@
 // You can write your code in this editor
 if (mouse_check_button(mb_left)){
 if (position_meeting(mouse_x,mouse_y,obj_maze_close)){
-obj_maze_instruct.image_speed = 1
-instance_destroy()
+if (obj_gspawn.maze_stop = true) 
+{
+obj_maze_instruct.i_state = 1
+obj_maze_instruct.image_speed = 2
+image_alpha = 0
+}
 }
 }
