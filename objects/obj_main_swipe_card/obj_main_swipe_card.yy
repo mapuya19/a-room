@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_temp_swipe_card",
-    "path": "sprites/spr_temp_swipe_card/spr_temp_swipe_card.yy",
+    "name": "spr_temp_left",
+    "path": "sprites/spr_temp_left/spr_temp_left.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,7 +22,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"target_x","tags":[],"resourceType":"GMObjectProperty",},
@@ -30,8 +29,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "01 MAIN ROOM",
-    "path": "folders/Objects/01 MAIN ROOM.yy",
+    "name": "03 BOMB ROOM",
+    "path": "folders/Objects/03 BOMB ROOM.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_main_swipe_card",
