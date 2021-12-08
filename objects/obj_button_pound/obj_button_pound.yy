@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_keyhash",
-    "path": "sprites/spr_keyhash/spr_keyhash.yy",
+    "name": "spr_keycheck",
+    "path": "sprites/spr_keycheck/spr_keycheck.yy",
   },
   "solid": false,
   "visible": true,

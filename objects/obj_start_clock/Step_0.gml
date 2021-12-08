@@ -7,6 +7,21 @@ if !(global.detonated) {
 	if (global.clock % room_speed == 0) {	// decrement seconds every second
 		--global.time_seconds;
 		
+		if (global.time_minutes < 1 && global.time_seconds > 0) {
+			if (global.time_seconds < 15) {
+				alarm[3] = room_speed * 0.25
+				alarm[2] = room_speed * 0.5;
+				alarm[1] = room_speed * 0.75;
+			}
+			else if (global.time_seconds < 30) {
+				alarm[2] = room_speed * 0.33;
+				alarm[1] = room_speed * 0.66;
+			}
+			else{
+				alarm[1] = room_speed * 0.5;
+			}
+		}
+		
 		audio_play_sound(sound_tick,1,0)
 	}
 
