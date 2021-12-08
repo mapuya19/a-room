@@ -102,6 +102,7 @@
     {"id":{"name":"obj_mouse","path":"objects/obj_mouse/obj_mouse.yy",},"order":19,},
     {"id":{"name":"spr_code_cover","path":"sprites/spr_code_cover/spr_code_cover.yy",},"order":7,},
     {"id":{"name":"obj_maze_goal","path":"objects/obj_maze_goal/obj_maze_goal.yy",},"order":25,},
+    {"id":{"name":"room_loss","path":"rooms/room_loss/room_loss.yy",},"order":10,},
     {"id":{"name":"obj_mazerunner","path":"objects/obj_mazerunner/obj_mazerunner.yy",},"order":12,},
     {"id":{"name":"spr_button5","path":"sprites/spr_button5/spr_button5.yy",},"order":7,},
     {"id":{"name":"spr_maze_display","path":"sprites/spr_maze_display/spr_maze_display.yy",},"order":24,},
@@ -170,6 +171,7 @@
     {"roomId":{"name":"room_wires","path":"rooms/room_wires/room_wires.yy",},},
     {"roomId":{"name":"room_light","path":"rooms/room_light/room_light.yy",},},
     {"roomId":{"name":"room_win","path":"rooms/room_win/room_win.yy",},},
+    {"roomId":{"name":"room_loss","path":"rooms/room_loss/room_loss.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
