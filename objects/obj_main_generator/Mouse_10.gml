@@ -1,3 +1,3 @@
 /// @description Text visible
 
-global.visible = 2;
+global.visiblemain = 2;
