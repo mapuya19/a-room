@@ -1,9 +1,5 @@
 /// @description Set variables for game states
 
-// Hover Global
-global.hover = false;
-global.hovering_object = noone;
-
 // Bomb Global
 global.num_filled = false;
 

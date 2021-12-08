@@ -1,24 +1,7 @@
 /// @description Game states and bomb timer
 
 if (room == room_main) {
-	//if (global.hover == false && global.hover_bomb != noone && position_meeting(mouse_x, mouse_y, global.hover_bomb)) {
-	//	global.hover = true;
-	//	global.saved_hover = global.hover_bomb.target_y;
-	//	global.hovering_object = global.hover_bomb;
-	//	global.hover_bomb.target_y = global.hover_bomb.target_y - 15;
-		
-	//} else if (global.hover == false && global.hover_swipe != noone && position_meeting(mouse_x, mouse_y, global.hover_swipe)) {
-	//	global.hover = true;
-	//	global.saved_hover = global.hover_swipe.target_y;
-	//	global.hovering_object = global.hover_swipe;
-	//	global.hover_swipe.target_y = global.hover_swipe.target_y - 15;
-	//}
-		
-	//if (global.hover == true && global.hovering_object != noone && !position_meeting(mouse_x, mouse_y, global.hovering_object)) {
-	//	global.hovering_object.target_y = global.saved_hover;
-	//	global.hovering_object = noone;
-	//	global.hover = false;
-	//}
+	// do nothing
 }
 
 // if (game state == connect wires)

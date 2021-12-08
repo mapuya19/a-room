@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_maze_display",
-    "path": "sprites/spr_maze_display/spr_maze_display.yy",
+    "name": "spr_temp_left",
+    "path": "sprites/spr_temp_left/spr_temp_left.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,11 +26,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "05 MAZE ROOM",
-    "path": "folders/Objects/05 MAZE ROOM.yy",
+    "name": "03 BOMB ROOM",
+    "path": "folders/Objects/03 BOMB ROOM.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_maze_display",
+  "name": "obj_back_bomb_left",
   "tags": [],
   "resourceType": "GMObject",
 }
