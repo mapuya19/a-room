@@ -4,12 +4,14 @@
 // types as much as screen can fit
 if (string_length(keys_typed) < global.num_total) {
 	if (obj_button_pound.pressed) {
-		audio_play_sound(sound_button_press, 3, 0);
+		
 		
 		if (keys_typed == global.correct) {
 			keys_typed = "BOMB DEFUSED";
+			audio_play_sound(sound_correct_code, 3, 0);
 		} else {
 			keys_typed = "ERR INCORRECT";
+			audio_play_sound(sound_wrong_code, 3, 0);
 		}
 		
 		obj_button_pound.pressed = false;
@@ -60,9 +62,25 @@ if (string_length(keys_typed) < global.num_total) {
 	}
 } else {
 	global.num_filled = true;
-	keys_typed = "ERR INCORRECT";
 	
-	if (obj_button_star.pressed) {
+	if (obj_button_pound.pressed) {
+		
+		
+		if (keys_typed == global.correct) {
+			keys_typed = "BOMB DEFUSED";
+			audio_play_sound(sound_correct_code, 3, 0);
+			
+			if (alarm[1] = -1) {
+				alarm[1] = 1.5 * room_speed;
+			}
+		} else {
+			keys_typed = "ERR INCORRECT";
+			audio_play_sound(sound_wrong_code, 3, 0);
+		}
+		global.num_filled = false;
+		
+		obj_button_pound.pressed = false;
+	} else if (obj_button_star.pressed) {
 		keys_typed = "";
 		global.num_filled = false;
 		audio_play_sound(sound_button_press, 3, 0);
