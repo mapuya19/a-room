@@ -138,8 +138,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"room_start_clock","path":"rooms/room_start_clock/room_start_clock.yy",},},
     {"roomId":{"name":"room_main","path":"rooms/room_main/room_main.yy",},},
+    {"roomId":{"name":"room_start_clock","path":"rooms/room_start_clock/room_start_clock.yy",},},
     {"roomId":{"name":"room_screen_wipe","path":"rooms/room_screen_wipe/room_screen_wipe.yy",},},
     {"roomId":{"name":"room_maze","path":"rooms/room_maze/room_maze.yy",},},
     {"roomId":{"name":"room_bomb","path":"rooms/room_bomb/room_bomb.yy",},},
@@ -183,7 +183,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.577",
+    "IDEVersion": "2.3.7.603",
   },
   "resourceVersion": "1.4",
   "name": "2d-platformer",
