@@ -20,3 +20,6 @@ global.num_three = 7;
 global.num_four = 2;
 global.num_five = 9;
 global.correct = "36729";
+
+// Win Global
+global.win = false;
