@@ -74,6 +74,7 @@ if (room == room_wires) {
 		}
 		else {
 			// insert code for when player completes wire connecting mini game
+			global.poweron = 1;
 		}
 	}
 }
