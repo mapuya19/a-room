@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-counter = 0;
-global.lighton = 0;
+//global.counter = 0;
+//global.lighton = 0;
+y = -1;
