@@ -80,7 +80,7 @@ if (room == room_wires) {
 
 if (room == room_win) {
 	if (keyboard_check(ord("Q"))){	// restart game
-		room_goto(room_main);
+		room_goto(room_start_clock);
 	}
 }
 
