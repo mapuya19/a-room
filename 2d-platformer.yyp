@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"obj_maze_instruct","path":"objects/obj_maze_instruct/obj_maze_instruct.yy",},"order":27,},
     {"id":{"name":"obj_button7","path":"objects/obj_button7/obj_button7.yy",},"order":10,},
     {"id":{"name":"obj_button1_timer","path":"objects/obj_button1_timer/obj_button1_timer.yy",},"order":21,},
     {"id":{"name":"spr_button8","path":"sprites/spr_button8/spr_button8.yy",},"order":10,},
@@ -17,6 +18,7 @@
     {"id":{"name":"spr_gspawn","path":"sprites/spr_gspawn/spr_gspawn.yy",},"order":13,},
     {"id":{"name":"spr_button2","path":"sprites/spr_button2/spr_button2.yy",},"order":4,},
     {"id":{"name":"room_start_clock","path":"rooms/room_start_clock/room_start_clock.yy",},"order":8,},
+    {"id":{"name":"spr_mazeclose","path":"sprites/spr_mazeclose/spr_mazeclose.yy",},"order":26,},
     {"id":{"name":"spr_background_main","path":"sprites/spr_background_main/spr_background_main.yy",},"order":1,},
     {"id":{"name":"spr_mainroomlight","path":"sprites/spr_mainroomlight/spr_mainroomlight.yy",},"order":3,},
     {"id":{"name":"obj_button2","path":"objects/obj_button2/obj_button2.yy",},"order":5,},
@@ -37,6 +39,7 @@
     {"id":{"name":"obj_wire","path":"objects/obj_wire/obj_wire.yy",},"order":14,},
     {"id":{"name":"obj_code_cover","path":"objects/obj_code_cover/obj_code_cover.yy",},"order":18,},
     {"id":{"name":"room_light","path":"rooms/room_light/room_light.yy",},"order":7,},
+    {"id":{"name":"spr_maze_instruct","path":"sprites/spr_maze_instruct/spr_maze_instruct.yy",},"order":25,},
     {"id":{"name":"obj_button4_timer","path":"objects/obj_button4_timer/obj_button4_timer.yy",},"order":18,},
     {"id":{"name":"obj_wire_end","path":"objects/obj_wire_end/obj_wire_end.yy",},"order":15,},
     {"id":{"name":"spr_temp_swipe_card","path":"sprites/spr_temp_swipe_card/spr_temp_swipe_card.yy",},"order":20,},
@@ -77,6 +80,7 @@
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},"order":0,},
     {"id":{"name":"spr_lightoff","path":"sprites/spr_lightoff/spr_lightoff.yy",},"order":0,},
     {"id":{"name":"spr_key9","path":"sprites/spr_key9/spr_key9.yy",},"order":9,},
+    {"id":{"name":"obj_maze_close","path":"objects/obj_maze_close/obj_maze_close.yy",},"order":28,},
     {"id":{"name":"sound_wrong_code","path":"sounds/sound_wrong_code/sound_wrong_code.yy",},"order":2,},
     {"id":{"name":"spr_key4","path":"sprites/spr_key4/spr_key4.yy",},"order":4,},
     {"id":{"name":"spr_temp_go_back","path":"sprites/spr_temp_go_back/spr_temp_go_back.yy",},"order":19,},
@@ -143,8 +147,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"room_main","path":"rooms/room_main/room_main.yy",},},
     {"roomId":{"name":"room_start_clock","path":"rooms/room_start_clock/room_start_clock.yy",},},
+    {"roomId":{"name":"room_main","path":"rooms/room_main/room_main.yy",},},
     {"roomId":{"name":"room_screen_wipe","path":"rooms/room_screen_wipe/room_screen_wipe.yy",},},
     {"roomId":{"name":"room_maze","path":"rooms/room_maze/room_maze.yy",},},
     {"roomId":{"name":"room_bomb","path":"rooms/room_bomb/room_bomb.yy",},},

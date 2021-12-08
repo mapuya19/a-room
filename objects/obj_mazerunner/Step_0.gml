@@ -20,7 +20,7 @@ h_speed = 0
 y_speed = 16
 }
 
-if (is_running = false && keyboard_check(vk_space)){
+if (is_running = false && keyboard_check(vk_space) && obj_gspawn.maze_stop = false){
 p_x = spawn_x
 p_y = spawn_y
 sprite_index = spr_mazeball
@@ -35,7 +35,7 @@ is_running = true
 x = p_x
 y = p_y
 
-if (keyboard_check(vk_escape)){
+if (keyboard_check(vk_escape) && obj_gspawn.maze_stop = false){
 is_running = false
 p_x = spawn_x
 p_y = spawn_y
