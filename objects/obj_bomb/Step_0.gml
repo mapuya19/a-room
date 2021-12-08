@@ -60,9 +60,19 @@ if (string_length(keys_typed) < global.num_total) {
 	}
 } else {
 	global.num_filled = true;
-	keys_typed = "ERR INCORRECT";
 	
-	if (obj_button_star.pressed) {
+	if (obj_button_pound.pressed) {
+		audio_play_sound(sound_button_press, 3, 0);
+		
+		if (keys_typed == global.correct) {
+			keys_typed = "BOMB DEFUSED";
+		} else {
+			keys_typed = "ERR INCORRECT";
+		}
+		global.num_filled = false;
+		
+		obj_button_pound.pressed = false;
+	} else if (obj_button_star.pressed) {
 		keys_typed = "";
 		global.num_filled = false;
 		audio_play_sound(sound_button_press, 3, 0);
