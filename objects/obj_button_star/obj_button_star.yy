@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_keystar",
-    "path": "sprites/spr_keystar/spr_keystar.yy",
+    "name": "spr_keycancel",
+    "path": "sprites/spr_keycancel/spr_keycancel.yy",
   },
   "solid": false,
   "visible": true,

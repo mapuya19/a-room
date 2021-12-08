@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_cardreader",
-    "path": "sprites/spr_cardreader/spr_cardreader.yy",
+    "name": "spr_cardreadertop",
+    "path": "sprites/spr_cardreadertop/spr_cardreadertop.yy",
   },
   "solid": false,
   "visible": true,
