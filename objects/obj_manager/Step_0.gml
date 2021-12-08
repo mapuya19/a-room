@@ -78,7 +78,7 @@ if (room == room_wires) {
 	}
 }
 
-if (room == room_win) {
+if (room == room_win || room == room_loss) {
 	if (keyboard_check(ord("Q"))){	// restart game
 		game_restart();
 	}

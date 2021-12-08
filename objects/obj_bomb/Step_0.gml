@@ -4,12 +4,21 @@
 // types as much as screen can fit
 if (string_length(keys_typed) < global.num_total) {
 	if (obj_button_pound.pressed) {
-		if (keys_typed == global.correct) {
-			keys_typed = "BOMB DEFUSED";
-			global.win = true;
-			audio_play_sound(sound_correct_code, 3, 0);
-		} else {
+		if (keys_typed != global.correct) {
+			
 			keys_typed = "ERR INCORRECT";
+
+			--attempts;	// decrement number of attempts
+
+			if (attempts <= 0) {
+				
+				obj_start_clock.alarm[0] = room_speed;	// explosion
+				
+				if (alarm[2] == -1) {	// end game screen
+					alarm[2] = 1.5 * room_speed;
+				}
+			}
+			
 			audio_play_sound(sound_wrong_code, 3, 0);
 		}
 		
@@ -68,12 +77,9 @@ if (string_length(keys_typed) < global.num_total) {
 			audio_play_sound(sound_correct_code, 3, 0);
 			global.win = true;
 			
-			if (alarm[1] = -1) {
+			if (alarm[1] = -1) {	// win screen
 				alarm[1] = 1.5 * room_speed;
 			}
-		} else {
-			keys_typed = "ERR INCORRECT";
-			audio_play_sound(sound_wrong_code, 3, 0);
 		}
 		
 		global.num_filled = false;
