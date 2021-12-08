@@ -1,4 +1,4 @@
-// @description Game states
+// @description Game states and bomb timer
 
 if (room == room_main) {
 	if (global.hover == false && global.hover_bomb != noone && position_meeting(mouse_x, mouse_y, global.hover_bomb)) {
@@ -6,6 +6,7 @@ if (room == room_main) {
 		global.saved_hover = global.hover_bomb.target_y;
 		global.hovering_object = global.hover_bomb;
 		global.hover_bomb.target_y = global.hover_bomb.target_y - 15;
+		
 	} else if (global.hover == false && global.hover_swipe != noone && position_meeting(mouse_x, mouse_y, global.hover_swipe)) {
 		global.hover = true;
 		global.saved_hover = global.hover_swipe.target_y;
@@ -18,7 +19,6 @@ if (room == room_main) {
 		global.hovering_object = noone;
 		global.hover = false;
 	}
-	
 }
 
 // if (game state == connect wires)
@@ -70,7 +70,6 @@ if (room == room_wires) {
 					global.wires_connected = false;
 					break;
 				}
-				show_debug_message("CONGRATTS")
 			}
 		}
 		else {
@@ -84,22 +83,30 @@ if (keyboard_check(ord("R"))){	// restart game
 	room_restart();
 }
 
-if (keyboard_check(ord("1"))){	// go to first room
-	room_goto(room_light);
+if (keyboard_check(ord("1"))){	// go to room main
+	room_goto(room_main);
 }
 
-if (keyboard_check(ord("2"))){	// go to second room
+if (keyboard_check(ord("2"))){	// go to room bomb
 	room_goto(room_bomb);
 }
 
-if (keyboard_check(ord("3"))){	// go to third room
+if (keyboard_check(ord("3"))){	// go to room swipe
 	room_goto(room_swipe);
 }
 
-if (keyboard_check(ord("4"))){	// go to fourth room
+if (keyboard_check(ord("4"))){	// go to room wires
 	room_goto(room_wires);
 }
 
-if (keyboard_check(ord("5"))){	// go to maze room
+if (keyboard_check(ord("5"))){	// go to room maze
 	room_goto(room_maze);
+}
+
+if (keyboard_check(ord("6"))){	// go to room lightswitch
+	room_goto(room_light);
+}
+
+if (keyboard_check(ord("7"))){	// go to room screen wipe
+	room_goto(room_screen_wipe);
 }

@@ -31,6 +31,9 @@ if (movable) {
 		
 		if (!mouse_check_button(mb_left)) {
 			drag = false;
+			
+			audio_play_sound(sound_electric_wire, 2, 0)
+			
 			if (x > 1118 && x < 1165) {
 				var top_wire = global.wires[| 3];
 				var mid_wire = global.wires[| 4];
