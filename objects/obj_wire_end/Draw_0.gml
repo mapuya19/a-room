@@ -31,10 +31,10 @@ if (movable) {
 		
 		if (!mouse_check_button(mb_left)) {
 			drag = false;
-			
+			show_debug_message("X,Y POS = " + string(x) + " , " + string(y))
 			audio_play_sound(sound_electric_wire, 2, 0)
 			
-			if (x > 1118 && x < 1165) {
+			if (x > 450 && x < 480) {
 				var top_wire = global.wires[| 3];
 				var mid_wire = global.wires[| 4];
 				var bottom_wire = global.wires[| 5];
@@ -42,26 +42,26 @@ if (movable) {
 				// connect wires if placed on the correct wire
 				if (y > top_wire.y - 23 && y < top_wire.y + 23 && image_index == top_wire.image_index) {
 					y = top_wire.y;
-					x = 1141;
+					x = 473;
 					movable = false;
 				}
 				else if (y > mid_wire.y - 23 && y < mid_wire.y + 23 && image_index == mid_wire.image_index) {
 					y = mid_wire.y;
-					x = 1141;
+					x = 473;
 					movable = false;
 				}
 				else if (y > bottom_wire.y - 23 && y < bottom_wire.y + 23 && image_index == bottom_wire.image_index) {
 					y = bottom_wire.y;
-					x = 1141;
+					x = 473;
 					movable = false;
 				}
 				else {	// return to start position if invalid placement
-					x = wire_connection.x + 128;
+					x = wire_connection.x + 96;
 					y = wire_connection.y;
 				}
 			}
 			else{	// return to start position if invalid placement
-				x = wire_connection.x + 128;
+				x = wire_connection.x + 96;
 				y = wire_connection.y;
 			}
 		}
