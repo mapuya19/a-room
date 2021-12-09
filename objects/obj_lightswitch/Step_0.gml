@@ -5,6 +5,7 @@ if (mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, ob
 	global.counter++;
 	if(global.poweron == 0) {
 		global.visiblelight = 1;
+		global.visiblebomb = 1;
 	}
 	var str_print = string_format(global.counter, 1, 3);
 	show_debug_message(str_print);
