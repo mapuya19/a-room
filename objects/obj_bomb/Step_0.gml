@@ -2,6 +2,7 @@
 
 // keypad
 // types as much as screen can fit
+
 if (string_length(keys_typed) < global.num_total) {
 	if (obj_button_pound.pressed) {
 		if (keys_typed != global.correct) {	// if entered code less than 5 digits
