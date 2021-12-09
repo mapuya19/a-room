@@ -19,6 +19,7 @@ if (global.counter % 2 == 0) { //even and off
 			sprite_index = spr_lighton
 			global.lighton = 1;
 			global.visiblelight = 2;
+			global.visiblebomb = 2;
 		}
 	}
 }
