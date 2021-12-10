@@ -12,6 +12,7 @@
     {"id":{"name":"spr_text_ishouldkeep","path":"sprites/spr_text_ishouldkeep/spr_text_ishouldkeep.yy",},"order":7,},
     {"id":{"name":"spr_dark","path":"sprites/spr_dark/spr_dark.yy",},"order":27,},
     {"id":{"name":"spr_text_thankfully","path":"sprites/spr_text_thankfully/spr_text_thankfully.yy",},"order":2,},
+    {"id":{"name":"room_title_screen","path":"rooms/room_title_screen/room_title_screen.yy",},"order":11,},
     {"id":{"name":"spr_keycheck","path":"sprites/spr_keycheck/spr_keycheck.yy",},"order":10,},
     {"id":{"name":"spr_wire_end","path":"sprites/spr_wire_end/spr_wire_end.yy",},"order":22,},
     {"id":{"name":"obj_button0_timer","path":"objects/obj_button0_timer/obj_button0_timer.yy",},"order":22,},
@@ -177,6 +178,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"room_title_screen","path":"rooms/room_title_screen/room_title_screen.yy",},},
     {"roomId":{"name":"room_start_clock","path":"rooms/room_start_clock/room_start_clock.yy",},},
     {"roomId":{"name":"room_main","path":"rooms/room_main/room_main.yy",},},
     {"roomId":{"name":"room_wires","path":"rooms/room_wires/room_wires.yy",},},
