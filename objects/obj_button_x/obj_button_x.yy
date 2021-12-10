@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_keycheck",
-    "path": "sprites/spr_keycheck/spr_keycheck.yy",
+    "name": "spr_keycancel",
+    "path": "sprites/spr_keycancel/spr_keycancel.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
     "path": "folders/Objects/03 BOMB ROOM/obj_buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_button_pound",
+  "name": "obj_button_x",
   "tags": [],
   "resourceType": "GMObject",
 }
