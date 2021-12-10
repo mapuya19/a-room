@@ -1,7 +1,9 @@
 /// @description Game states and bomb timer
 
-if (room == room_main) {
-	// do nothing
+if (room == room_title_screen) {
+	if (keyboard_check(vk_space)){	// restart room
+		room_goto(room_start_clock);
+	}
 }
 
 // if (game state == connect wires)
