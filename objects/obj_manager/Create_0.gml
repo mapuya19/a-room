@@ -4,9 +4,9 @@
 global.num_filled = false;
 
 // Wire Game Global
-global.wires = ds_list_create();
-global.rand_int = irandom_range(0,2);
-global.wires_connected = false;
+global.wires = ds_list_create();	// list of wires
+global.rand_int = irandom_range(0,2);	// randomizes the colors of the right side wires
+global.wires_connected = false;	// true when all wires connected
 
 // Global Numbers
 global.num_total = 5; 
