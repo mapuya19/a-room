@@ -7,6 +7,6 @@ show_debug_message("EXPOLSION!");
 // explosion animation
 
 // explosion sound
-audio_play_sound(sound_explosion, 1, 0);
+audio_play_sound(sound_beep_explosion, 1, 0);
 
 instance_destroy(self)

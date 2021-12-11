@@ -58,6 +58,10 @@ if (room == room_wires) {
 					break;
 				}
 			}
+			if (global.wires_connected) {
+				audio_play_sound(sound_power_on, 9, 0);
+				obj_start_clock.alarm[4] = room_speed * 3.4;
+			}
 		}
 		else {
 			// insert code for when player completes wire connecting mini game
