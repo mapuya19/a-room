@@ -2,8 +2,8 @@
 // You can write your code in this editor
 spawn_x = 200
 p_x = 200
-spawn_y = 380
-p_y = 380
+spawn_y = 450
+p_y = 450
 is_running = false
 direct = 1
 alarm[0] = 0.2*room_speed
