@@ -52,3 +52,7 @@ for (i = 0; i < 10; ++i) {
 		global.sec_ones = global.buttons_spr[| 0][i]
 	}
 }
+
+if (room == room_win) {
+	instance_destroy(self);
+}
