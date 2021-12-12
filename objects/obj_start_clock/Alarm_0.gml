@@ -9,4 +9,6 @@ show_debug_message("EXPOLSION!");
 // explosion sound
 audio_play_sound(sound_beep_explosion, 1, 0);
 
-instance_destroy(self)
+audio_stop_sound(sound_whirring);
+
+instance_destroy(self);
