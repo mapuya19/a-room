@@ -84,3 +84,5 @@ else {	// keep drawing wires after they've been connected
 
 	}
 }
+
+draw_set_alpha(1);
