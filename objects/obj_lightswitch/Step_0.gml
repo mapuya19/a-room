@@ -16,6 +16,8 @@ if (mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, ob
 	else if (global.counter % 2 == 0) { // even and off
 		global.counter++;
 		audio_play_sound(sound_light_flip_up, 7, 0);	// flip lightswiitch up only once after power is on
+	} else {
+		global.counter++;
 	}
 	
 	var str_print = string_format(global.counter, 1, 3);
