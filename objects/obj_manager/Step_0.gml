@@ -13,7 +13,7 @@ if (room == room_wires) {
 	var num_wires = ds_list_size(global.wires);
 	if (num_wires < 3) {	// first 3 wires on the left side
 		
-		var wire = instance_create_depth(-96, 96 + (num_wires * 160), -100, obj_wire);
+		var wire = instance_create_depth(-64, 96 + (num_wires * 160), -100, obj_wire);
 		var wire_end = instance_create_depth(0, 96 + (num_wires * 160), -100, obj_wire_end);
 		
 		wire.wire_connection = wire_end;
