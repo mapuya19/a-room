@@ -4,6 +4,7 @@ persistent = true
 
 global.poweron = 0; //power is off
 global.lighton = 0; //light switch is off
+global.stop_flip = false;
 
 global.detonated = false;
 global.clock = 0;
