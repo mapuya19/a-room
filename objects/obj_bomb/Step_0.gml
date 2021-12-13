@@ -9,9 +9,9 @@ if (!instance_exists(obj_dark)) {
 
 				keys_typed = "ERR INCORRECT";
 
-				--attempts;	// decrement number of attempts
+				--global.attempts;	// decrement number of attempts
 			
-				if (attempts <= 0) {
+				if (global.attempts <= 0) {
 				
 					obj_start_clock.alarm[0] = room_speed;	// explosion
 				
@@ -97,9 +97,9 @@ if (!instance_exists(obj_dark)) {
 			} else {
 				keys_typed = "ERR INCORRECT";
 			
-				--attempts;	// decrement number of attempts
+				--global.attempts;	// decrement number of attempts
 
-				if (attempts <= 0) {
+				if (global.attempts <= 0) {
 				
 					obj_start_clock.alarm[0] = room_speed;	// explosion
 				

@@ -1,5 +1,15 @@
 /// @description Game states and bomb timer
 
+// play bad click sound effect if clicked anything other than an object
+if (room == room_main && mouse_check_button_pressed(mb_left)) { 
+	if !(position_meeting(mouse_x, mouse_y, obj_mainroom_mark) || position_meeting(mouse_x, mouse_y, obj_main_bomb)
+		|| position_meeting(mouse_x, mouse_y, obj_main_generator) || position_meeting(mouse_x, mouse_y, obj_main_lightswitch)) {
+	
+		audio_play_sound(sound_bad_click, 11, 0);
+	
+	}
+}
+
 if (room == room_title_screen) {
 	if (keyboard_check(vk_space)){	// restart room
 		room_goto(room_start_clock);
