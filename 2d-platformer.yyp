@@ -81,6 +81,7 @@
     {"id":{"name":"obj_bomb","path":"objects/obj_bomb/obj_bomb.yy",},"order":1,},
     {"id":{"name":"spr_mainroom","path":"sprites/spr_mainroom/spr_mainroom.yy",},"order":0,},
     {"id":{"name":"spr_button0","path":"sprites/spr_button0/spr_button0.yy",},"order":2,},
+    {"id":{"name":"sound_scrub","path":"sounds/sound_scrub/sound_scrub.yy",},"order":15,},
     {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},"order":8,},
     {"id":{"name":"sound_beep_explosion","path":"sounds/sound_beep_explosion/sound_beep_explosion.yy",},"order":10,},
     {"id":{"name":"spr_text_empty","path":"sprites/spr_text_empty/spr_text_empty.yy",},"order":9,},

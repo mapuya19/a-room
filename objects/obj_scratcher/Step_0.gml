@@ -11,6 +11,18 @@ if (mouse_check_button(mb_left)) {
 		gpu_set_blendmode(bm_normal);
 		surface_reset_target();
 		
+		if !(audio_is_playing(sound_scrub)) {
+			audio_play_sound(sound_scrub, 14, 1);
+		}
+		
+		if (audio_is_paused(sound_scrub)) {
+			audio_resume_sound(sound_scrub);
+		}
 	}
 	
+}
+else if (mouse_check_button_released(mb_left)){
+	if (audio_is_playing(sound_scrub)) {
+		audio_pause_sound(sound_scrub);
+	}
 }
