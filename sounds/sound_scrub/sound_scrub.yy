@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.5,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sound_good_click.wav",
-  "duration": 0.319887,
+  "soundFile": "sound_scrub.wav",
+  "duration": 1.351083,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sound_good_click",
+  "name": "sound_scrub",
   "tags": [],
   "resourceType": "GMSound",
 }

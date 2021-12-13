@@ -8,6 +8,7 @@ direct = 1
 } else {
     direct += 1
     }
+audio_play_sound(sound_good_click, 12, 0);
 }
 
 if (keyboard_check_pressed(ord("E"))){
@@ -16,12 +17,14 @@ direct = 4
 } else {
     direct -= 1
     }
+audio_play_sound(sound_good_click, 13, 0);
 }
 
 if (mouse_check_button_released(mb_left))
 {
 	set = true
 	obj_gspawn.held = false
+	audio_play_sound(sound_bad_click, 14, 0);
 }
 }
 
