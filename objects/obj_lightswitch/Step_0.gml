@@ -8,6 +8,7 @@ if (mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, ob
 	if(global.poweron == 0) {	// only flip lightswitch while light is off
 		global.visiblelight = 1;
 		global.visiblebomb = 1;
+		global.visibleswipe = 1;
 		if (global.counter % 2 == 1) { //odd and on
 			audio_play_sound(sound_light_flip_up, 7, 0);
 		} else {
