@@ -20,16 +20,19 @@ if (!instance_exists(obj_dark) && !global.swipe_discovered) {
 			if (time_counter >= 30 && time_counter <= 40) {
 				audio_play_sound(sound_good_card_swipe, 8, 0);
 				x = 470;
+				global.visibleswipe = 5;
 				global.swipe_discovered = true;
 				
 			} else if (time_counter < 30) {
 				//too fast message
 				show_debug_message("too fast");
+				global.visibleswipe = 4;
 				audio_play_sound(sound_bad_card_swipe, 8, 0);
 				x = 114;
 			} else {
 				//too slow message
 				show_debug_message("too slow");
+				global.visibleswipe = 3;
 				audio_play_sound(sound_bad_card_swipe, 8, 0);
 				x = 114;
 			}

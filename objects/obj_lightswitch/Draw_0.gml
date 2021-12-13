@@ -27,6 +27,7 @@ if (global.counter % 2 == 0) { //even and off
 			global.visiblelight = 2;
 			show_debug_message("working");
 			global.visiblebomb = 2;
+			global.visibleswipe = 2;
 		}
 	}
 }
