@@ -53,6 +53,35 @@ for (i = 0; i < 10; ++i) {
 	}
 }
 
+// code
+
+if (global.wall_discovered) {	// 3 6
+	global.first_digit = spr_button3;
+	global.second_digit = spr_button6;
+}
+else{	// * *
+	global.first_digit = spr_button_star;
+	global.second_digit = spr_button_star;
+}
+
+
+if (global.swipe_discovered) {	// 7
+	global.third_digit = spr_button7;
+}
+else {	// *
+	global.third_digit = spr_button_star;
+}
+
+
+if (global.maze_discovered) {	// 2 9
+	global.fourth_digit = spr_button2;
+	global.fifth_digit = spr_button9;
+}
+else {	// * *
+	global.fourth_digit = spr_button_star;
+	global.fifth_digit = spr_button_star;
+}
+
 if (room == room_win) {
 	instance_destroy(self);
 }

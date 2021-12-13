@@ -23,4 +23,16 @@ global.min_ones = spr_button0
 global.sec_tens = spr_button0
 global.sec_ones = spr_button0
 
+// checks if parts of the code have been discovered
+global.wall_discovered = false;
+global.swipe_discovered = false;
+global.maze_discovered = false;
+
+// sprites for each code digit
+global.first_digit = spr_button0;
+global.second_digit = spr_button0;
+global.third_digit = spr_button0;
+global.fourth_digit = spr_button0;
+global.fifth_digit = spr_button0;
+
 room_goto_next()

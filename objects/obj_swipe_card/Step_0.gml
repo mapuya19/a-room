@@ -2,7 +2,7 @@
 
 //show_debug_message("X" + string(x));
 
-if (!instance_exists(obj_dark)) {
+if (!instance_exists(obj_dark) && !global.swipe_discovered) {
 	if (!drag) {
 	   if (mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, id)) {
 	      drag = true;
@@ -19,17 +19,28 @@ if (!instance_exists(obj_dark)) {
 	   
 			if (time_counter >= 30 && time_counter <= 40) {
 				audio_play_sound(sound_good_card_swipe, 8, 0);
+				x = 470;
+				global.swipe_discovered = true;
+				
 			} else if (time_counter < 30) {
 				//too fast message
-				audio_play_sound(sound_bad_card_swipe, 8, 0)
+				show_debug_message("too fast");
+				audio_play_sound(sound_bad_card_swipe, 8, 0);
+				x = 114;
 			} else {
 				//too slow message
-				audio_play_sound(sound_bad_card_swipe, 8, 0)
+				show_debug_message("too slow");
+				audio_play_sound(sound_bad_card_swipe, 8, 0);
+				x = 114;
 			}
 	   
 			drag = false;
-			x = 114
 			time_counter = 0;
 	   }
 	}
+}
+else if (global.swipe_discovered) { 
+	x = 470; 
+	// display 3rd digit (7)
+	draw_text_transformed(240, 370, "7", 3, 3, 0);
 }
