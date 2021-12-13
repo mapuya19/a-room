@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_info",
-    "path": "sprites/spr_info/spr_info.yy",
+    "name": "spr_helpbuttonfin",
+    "path": "sprites/spr_helpbuttonfin/spr_helpbuttonfin.yy",
   },
   "solid": false,
   "visible": true,

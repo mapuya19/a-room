@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_maze_instruct",
-    "path": "sprites/spr_maze_instruct/spr_maze_instruct.yy",
+    "name": "spr_helpmenufin",
+    "path": "sprites/spr_helpmenufin/spr_helpmenufin.yy",
   },
   "solid": false,
   "visible": true,

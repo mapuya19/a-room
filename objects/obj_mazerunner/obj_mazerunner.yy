@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_mazeball",
-    "path": "sprites/spr_mazeball/spr_mazeball.yy",
+    "name": "spr_mazeballfin",
+    "path": "sprites/spr_mazeballfin/spr_mazeballfin.yy",
   },
   "solid": false,
   "visible": true,
