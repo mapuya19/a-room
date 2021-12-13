@@ -16,6 +16,12 @@ if (room == room_title_screen) {
 	}
 }
 
+if (room == room_main) {
+    if (audio_is_playing(sound_scrub)) {
+        audio_pause_sound(sound_scrub);
+    }
+}
+
 // if (game state == connect wires)
 if (room == room_wires) {
 	global.lighton = 0;

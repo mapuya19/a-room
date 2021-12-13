@@ -20,6 +20,10 @@ if (global.poweron == 1) && (global.lighton == 1) {
 		sprite_index = spr_text_alightswitch;
 		draw_self();
 	}
+	if (global.visiblemain == 5) { // handprint
+		sprite_index = spr_text_ahandprint;
+		draw_self();
+	}
 
 } else {
 	if (global.visiblemain != 0) && (global.visiblemain != 4) { 
