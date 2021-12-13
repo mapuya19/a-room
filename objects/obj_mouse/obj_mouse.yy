@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_cursor",
-    "path": "sprites/spr_cursor/spr_cursor.yy",
+    "name": "spr_mousefin",
+    "path": "sprites/spr_mousefin/spr_mousefin.yy",
   },
   "solid": false,
   "visible": true,

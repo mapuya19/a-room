@@ -24,7 +24,7 @@ y_speed = 16
 if (is_running = false && keyboard_check(vk_space) && obj_gspawn.maze_stop = false){
 p_x = spawn_x
 p_y = spawn_y
-sprite_index = spr_mazeball
+sprite_index = spr_mazeballfin
 ds_list_clear(trail_x)
 ds_list_clear(trail_y)
 ds_list_add(trail_x, p_x);
@@ -44,5 +44,5 @@ ds_list_clear(trail_x)
 ds_list_clear(trail_y)
 ds_list_add(trail_x, p_x);
 ds_list_add(trail_y, p_y);
-sprite_index = spr_mazeball
+sprite_index = spr_mazeballfin
 }

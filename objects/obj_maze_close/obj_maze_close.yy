@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_mazeclose",
-    "path": "sprites/spr_mazeclose/spr_mazeclose.yy",
+    "name": "spr_exitbuttonfin",
+    "path": "sprites/spr_exitbuttonfin/spr_exitbuttonfin.yy",
   },
   "solid": false,
   "visible": true,

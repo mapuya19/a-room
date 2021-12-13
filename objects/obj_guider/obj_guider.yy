@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_guider",
-    "path": "sprites/spr_guider/spr_guider.yy",
+    "name": "spr_guiderfin",
+    "path": "sprites/spr_guiderfin/spr_guiderfin.yy",
   },
   "solid": false,
   "visible": true,

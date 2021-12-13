@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_maze_goal",
-    "path": "sprites/spr_maze_goal/spr_maze_goal.yy",
+    "name": "spr_flagfin",
+    "path": "sprites/spr_flagfin/spr_flagfin.yy",
   },
   "solid": false,
   "visible": true,

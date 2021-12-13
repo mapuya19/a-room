@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_gspawn",
-    "path": "sprites/spr_gspawn/spr_gspawn.yy",
+    "name": "spr_guiderfin",
+    "path": "sprites/spr_guiderfin/spr_guiderfin.yy",
   },
   "solid": false,
   "visible": true,
